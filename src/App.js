@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
-import { AppTopbar } from './AppTopbar';
-import { AppFooter } from './AppFooter';
-import { AppMenu } from './AppMenu';
-import { AppProfile } from './AppProfile';
 import { Route } from 'react-router-dom';
+import { AppTopbar } from './components/AppTopbar';
+import { AppFooter } from './components/AppFooter';
+import { AppMenu } from './components/AppMenu';
+import { AppProfile } from './components/AppProfile';
 import Home from './components/Home';
 import { Main } from './components/Main';
 import { PlannerContainer } from './components/PlannerContainer';
-
 import 'primereact/resources/themes/nova-light/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
